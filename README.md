@@ -1,6 +1,6 @@
 # Svelte Material Starter
 
-This repo shows how to use Google's Material Design Web Components in a basic Svelte project. This is a clone of the [official Svelte starter project](https://github.com/sveltejs/template) as of [commit f2f9145](https://github.com/sveltejs/template/tree/f2f91456936562571e6ae9bbe017a54a7e044202).
+This repo shows how to use Google's Material Design Web Components in a basic Svelte project. This is based on a clone of the [official Svelte starter project](https://github.com/sveltejs/template) as of [commit f2f9145](https://github.com/sveltejs/template/tree/f2f91456936562571e6ae9bbe017a54a7e044202).
 
 ## Installation
 
@@ -8,7 +8,7 @@ To create a new project based on this template using [degit](https://github.com/
 
 ```bash
 npx degit activefog/svelte-material-starter svelte-material-starter
-cd svelte-app
+cd svelte-material-starter
 ```
 
 _Note that you will need to have [Node.js](https://nodejs.org) installed._
