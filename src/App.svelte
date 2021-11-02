@@ -1,19 +1,17 @@
 <script>
-  import MaterialButton from "./MaterialButton.svelte";
+  import MaterialButton from './MaterialButton.svelte';
 </script>
 
 <MaterialButton
-  id="one"
   text="first button"
-  onClickFunction={() => {
-    console.log("you just clicked the first button");
+  on:click={() => {
+    console.log('you just clicked the first button');
   }}
 />
 <MaterialButton
-  id="two"
   text="second button"
-  onClickFunction={() => {
-    console.log("you just clicked the second button");
+  on:click={() => {
+    console.log('you just clicked the second button');
   }}
 />
 
