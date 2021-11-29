@@ -3,16 +3,14 @@
 </script>
 
 <MaterialButton
-  id="one"
   text="first button"
-  onClickFunction={() => {
+  on:click={() => {
     console.log("you just clicked the first button");
   }}
 />
 <MaterialButton
-  id="two"
   text="second button"
-  onClickFunction={() => {
+  on:click={() => {
     console.log("you just clicked the second button");
   }}
 />

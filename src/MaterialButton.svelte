@@ -1,17 +1,14 @@
 <script>
-  import { onMount } from "svelte";
   import { MDCRipple } from "@material/ripple";
 
-  onMount(() => {
-    const buttonRipple = new MDCRipple(document.getElementById(id));
-  });
-
-  export let id;
+  function materialButton(element) {
+    const buttonRipple = new MDCRipple(element);
+  }
   export let text;
-  export let onClickFunction;
+
 </script>
 
-<button class="mdc-button" {id} on:click={onClickFunction}>
+<button class="mdc-button" use:materialButton on:click>
   <span class="mdc-button__ripple" />
   <span class="mdc-button__label">{text}</span>
 </button>
